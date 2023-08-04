@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-font, .head{
+    font-size: 10rem;
+    margin: 0%;
+    padding: 0;
+}
+
+.head{
+    color: black;
+
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 4rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.decrease{
+    background-color: red;
+}
+
+.increase{
+    background-color: green;
+}
+
+.reset{
+    background-color: black;
+    
+}
+
+button :hover{
+    background-color: aquamarine;
+    color: black;
+}
