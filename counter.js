@@ -4,7 +4,6 @@ let decrease= document.getElementById("decrease")
 let reset= document.getElementById("reset")
 let increase= document.getElementById("increase")
 
-
 class Counter{
     constructor(header, result, decrease, reset, increase){
 
